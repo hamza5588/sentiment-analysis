@@ -33,12 +33,9 @@ def home(request):
     #         sentiment, emoji = analyze_sentiment(text)  # Call sentiment analysis function
     #         return render(request, 'index.html', {'sentiment': sentiment, 'emoji': emoji})
     #     # Add more methods if needed
-    return render(request, 'file.html')
+    return render(request, 'nfile.html')
 
 
-# views.py
-from django.shortcuts import render
-from django.http import HttpResponse
 
 def gsanaylysis(request):
     if request.method == 'POST':

@@ -1,1 +1,1 @@
-web:gunicorn Sentimentapp:Sentimentapp
+web: gunicorn Sanaylysisproject.wsgi --log-file -
