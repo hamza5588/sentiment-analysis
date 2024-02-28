@@ -11,3 +11,5 @@ corpora_to_download = [
 # Download each corpus
 for corpus in corpora_to_download:
     nltk.download(corpus)
+
+print("the fikle is downloaded")
