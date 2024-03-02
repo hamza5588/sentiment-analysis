@@ -1,1 +1,1 @@
-web: gunicorn Sanaylysisproject.wsgi --log-file -
+web gunicorn Sanaylysisproject.wsgi:application --log-file -
